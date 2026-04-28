@@ -171,10 +171,10 @@ const handleLogin = async () => {
 
         <div style={{ animation: 'ttecg-fadeUp 0.8s ease-out' }}>
           <h1 style={{ fontSize: 44, fontWeight: 800, lineHeight: 1.15, color: T.text, marginBottom: 18, letterSpacing: '-1px' }}>
-            Advanced ECG<br />Training &<br /><em style={{ fontStyle: 'normal', color: T.primary }}>Education.</em>
+            Advanced Banking<br />Flow Analytics &<br /><em style={{ fontStyle: 'normal', color: T.primary }}>Intelligence.</em>
           </h1>
           <p style={{ color: T.textSub, fontSize: 14, lineHeight: 1.7, maxWidth: 380, marginBottom: '2.5rem' }}>
-            Empowering medical professionals with real-time clinical diagnostics, intuitive patient management, and comprehensive training modules. Welcome to the future of cardiology.
+            Empowering financial institutions with real-time transaction monitoring, intelligent risk detection, and seamless cashflow management. Experience next-generation banking operations with secure, scalable, and data-driven insights.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 32 }}>
             {[['14k', 'Reads'], ['9', 'Cases'], ['5', 'Active TM']].map(([n, l], i) => (
