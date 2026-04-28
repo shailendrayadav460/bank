@@ -332,7 +332,7 @@ const SuperAdminLayout = () => {
             <Activity size={24} style={{ color: T.primary, flexShrink: 0 }} />
             {sidebarOpen && (
               <span style={{ fontSize: 18, fontWeight: 700, color: T.text, whiteSpace: 'nowrap' }}>
-                TTOOLECG
+                BANKFLOW
               </span>
             )}
           </div>

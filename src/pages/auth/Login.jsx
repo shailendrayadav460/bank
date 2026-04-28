@@ -164,7 +164,7 @@ const handleLogin = async () => {
               width: 32, height: 32, backgroundColor: T.primary, borderRadius: 8,
               display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff'
             }}><IconActivity /></div>
-            <span style={{ fontWeight: 800, fontSize: 18, letterSpacing: .5, color: T.text }}>TTOOLECG</span>
+            <span style={{ fontWeight: 800, fontSize: 18, letterSpacing: .5, color: T.text }}>BANKFLOW</span>
           </div>
           <div style={{ fontSize: 9.5, color: T.textSub, letterSpacing: '2.5px', textTransform: 'uppercase', marginLeft: 44, marginTop: 4 }}>High-Fidelity Portal</div>
         </div>
@@ -189,7 +189,7 @@ const handleLogin = async () => {
           </div>
         </div>
 
-        <div style={{ fontSize: 10, color: T.textSub }}>© 2026 TTOOLECG · SECURED ACCESS</div>
+        <div style={{ fontSize: 10, color: T.textSub }}>© 2026 BANKFLOW · SECURED ACCESS</div>
       </div>
 
       {/* ── Right Side: Login Card ── */}
