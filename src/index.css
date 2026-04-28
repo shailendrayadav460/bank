@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..900;1,9..40,100..900&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  @apply h-screen w-screen overflow-hidden;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply antialiased;
+  background-color: var(--theme-body-bg, #080e1f);
+  color: var(--theme-body-text, #f8fafc);
+}
+
+/* Glassmorphism utility */
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20;
+}
+
+/* Modern card style — theme-aware via CSS vars set by ThemeContext */
+.card-modern {
+  background-color: var(--theme-body-bg, #0d1530);
+  border-radius: 12px;
+  border: 1px solid var(--theme-border, #1a2545);
+  padding: 24px;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+/* Custom scrollbar utility class */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.25);
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.45);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+/* Gradient background */
+.bg-gradient-premium {
+  @apply bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500;
+}
