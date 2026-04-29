@@ -650,7 +650,7 @@ const Users = () => {
               <Activity size={17} color="#fff" />
             </div>
             <div>
-              <div style={{ fontSize: 15, fontWeight: 700, color: T.text, letterSpacing: '-0.01em' }}>TTOOLECG</div>
+              <div style={{ fontSize: 15, fontWeight: 700, color: T.text, letterSpacing: '-0.01em' }}>BANKFLOW</div>
               <div style={{ fontSize: 10, color: T.textSub, fontWeight: 500 }}>SUPER ADMIN</div>
             </div>
           </div>
